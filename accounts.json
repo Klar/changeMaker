@@ -1,0 +1,34 @@
+[
+  {
+    "description": "my testnet account",
+    "enabled": true,
+    "network": "test",
+    "xprv": "tprv8ZgxMBicQKsPfNXxqQXoEPeBnjjw4LuYGV1eCe4zi8A8EkVexmY5djLGF58z5PHXwdCTKxVBdgNtsNj33pv2k1ghCrgKyc4nJrYdTRyDvjP",
+    "deriveReceivePath": "m/0/",
+    "deriveChangePath": "m/1/",
+    "receiveIndex": 134,
+    "changeIndex": 4,
+    "maxSatoshis": 500000,
+    "minSatoshis": 500000,
+    "maxToAddresses": 2,
+    "fee_per_kb": 250,
+    "broadcast": true,
+    "filename": "mytest1.txt"
+  },
+  {
+    "description": "my testnet #2 account",
+    "enabled": true,
+    "network": "test",
+    "xprv": "tprv8ZgxMBicQKsPfNXxqQXoEPeBnjjw4LuYGV1eCe4zi8A8EkVexmY5djLGF58z5PHXwdCTKxVBdgNtsNj33pv2k1ghCrgKyc4nJrYdTRyDvjP",
+    "deriveReceivePath": "m/0/",
+    "deriveChangePath": "m/1/",
+    "receiveIndex": 133,
+    "changeIndex": 4,
+    "maxSatoshis": 250000,
+    "minSatoshis": 150000,
+    "maxToAddresses": 3,
+    "fee_per_kb": 350,
+    "broadcast": true,
+    "filename": "mytest2.txt"
+  }
+]

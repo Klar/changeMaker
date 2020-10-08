@@ -1,0 +1,19 @@
+{
+  "name": "changemaker",
+  "version": "1.0.0",
+  "description": "Bitcoin *SV UTXO splitter",
+  "main": "changeMaker.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.pxd.ch/afu/changeMaker.git"
+  },
+  "author": "reldavs",
+  "license": "ISC",
+  "dependencies": {
+    "bsv": "^1.5.4",
+    "node-fetch": "^2.6.1"
+  }
+}
