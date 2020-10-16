@@ -18,5 +18,8 @@ You can then use [changeCaster](https://github.com/klar/changeCaster) to broadca
 
 ## todo
 * use ElectrumSV's rest api for getting UTXO information.
+** https://electrumsv.readthedocs.io/en/releases-1.3/building-on-electrumsv/rest-api.html
 * Benfords Law?
- * https://nchain.com/benfords-wallet/
+** https://nchain.com/benfords-wallet/
+* implement mAPI
+** https://github.com/bitcoin-sv-specs/brfc-merchantapi
