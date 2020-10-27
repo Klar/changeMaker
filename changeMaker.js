@@ -399,20 +399,23 @@ async function main(){
 
     if (account.enabled){
 
+      let {
+        description,
+        xprv,
+        network,
+        deriveReceivePath,
+        deriveChangePath,
+        maxSatoshis,
+        minSatoshis,
+        maxToAddresses,
+        broadcast,
+        filename,
+        receiveIndex,
+        changeIndex
+      } = account;
 
-      description = account.description
       console.log(description + ": ");
-      xprv = account.xprv
-      network = account.network
-      deriveReceivePath = account.deriveReceivePath
-      deriveChangePath = account.deriveChangePath
-      maxSatoshis = account.maxSatoshis
-      minSatoshis = account.minSatoshis
-      maxToAddresses = account.maxToAddresses
-      broadcast = account.broadcast
-      filename = account.filename
-      receiveIndex = account.receiveIndex
-      changeIndex = account.changeIndex
+
       generateEmptyAddresses = maxToAddresses * 20
       bsv.Transaction.FEE_PER_KB = accounts[0].fee_per_kb
 
